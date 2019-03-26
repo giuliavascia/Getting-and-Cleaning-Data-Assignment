@@ -2,12 +2,15 @@
 tidydata.txt file contains a tidy data set in which for each row there are information about 'subject' and 'activity' that uniquely identify a row of the data set.
 - subject: identify of the test subject, integert with range from 1 to 30
 - activity: the activity performed, possible values:
---WALKING: subject was walking
---WALKING_UPSTAIRS: subject was walking upstairs
---WALKING_DOWNSTAIRS: subject was walking downstairs
---SITTING: subject was sitting
---STANDING: subject was standing
---LAYING: subject was laying
+
+| Type  | Description |
+| ------------- | ------------- |
+| WALKING  | subject was walking  |
+| WALKING_UPSTAIRS  | subject was walking upstairs  |
+| WALKING_DOWNSTAIRS  | subject was walking downstairs  |
+| SITTING  | subject was sitting  |
+| STANDING  | subject was standing  |
+| LAYING  | subject was laying  |
 
 # Process
 The process to get tidy dataset from the raw dataset involves the following transformations: 
